@@ -13,5 +13,5 @@
     ],
     'installable': True,
     'auto_install': False,
-    'license': 'Proprietary',
+    'license': 'OEEL-1',
 }
