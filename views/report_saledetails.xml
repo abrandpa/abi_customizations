@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_saledetails" inherit_id="point_of_sale.report_saledetails" priority="99">
+        <!-- Remove the products sales section -->
+        <xpath expr="//div[@id='sales']" position="replace"/>
+        
+        <!-- Remove the refunds section -->
+        <xpath expr="//t[@id='refunds']" position="replace"/>
+    </template>
+</odoo>
